@@ -34,6 +34,6 @@ jobs:
         cd ui-fonts
         clojure -X:goldly:npm-install
         ./copy_res.sh
-	./get-fonts.sh
+        ./get-fonts.sh
         clojure -T:build jar
         clojure -T:build deploy
