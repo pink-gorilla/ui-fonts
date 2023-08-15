@@ -1,0 +1,12 @@
+{:name "ui-fonts"
+ ;build
+ :lazy-sci false
+ ; theme
+ :theme {:available {:fontawesome {true ["@fortawesome/fontawesome-free/css/all.min.css"]
+                                   false []}
+                     :fonts-google {true ["fonts-google/fonts.css"]
+                                    false []}}
+         :current {:fontawesome true
+                   :fonts-google false}}
+
+ }
