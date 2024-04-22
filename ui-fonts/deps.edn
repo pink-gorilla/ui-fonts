@@ -1,6 +1,6 @@
 {:paths ["src"
          "resources" ; goldly ext, notebooks
-          "target/node_modules"  ; css png resources from npm modules (tailwind)
+         "target/node_modules"  ; css png resources from npm modules (tailwind)
          ]
  :deps {}
 
